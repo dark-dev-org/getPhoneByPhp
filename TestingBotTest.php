@@ -15,8 +15,8 @@ class TestingBotTest extends \PHPUnit_Extensions_AppiumTestCase
             'desiredCapabilities' => [
                 'device' => 'Android',
                 'deviceName' => '127.0.0.1:62001', // 模擬器的 port
-                'platformVersion' => '5.1.1',
-                'platformName' => 'Android',
+                'platformVersion' => '5.1.1', // 系統的版本
+                'platformName' => 'Android',  // 系統的名稱
                 'appPackage'  => '', // app 的名稱
                 'appActivity' => 'MyActivity', // app 要開啟的畫面
                 "noReset"     => true // 是否不清空設定黨
